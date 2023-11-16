@@ -1,5 +1,5 @@
 {
-  "name": "rx-ui",
+  "name": "@doamenelz/rx-ui",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,7 +41,15 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "@doamenelz:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@types/react": "^18.2.37",

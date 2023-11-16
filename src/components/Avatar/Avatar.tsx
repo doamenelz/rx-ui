@@ -1,3 +1,4 @@
+import React from "react";
 import { FC, useState } from "react";
 import { AVATAR_SIZES, AvatarProps } from "./Avatar.types";
 import { classNames } from "../../utilities/helperFunctions";

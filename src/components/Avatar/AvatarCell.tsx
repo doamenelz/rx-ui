@@ -1,3 +1,4 @@
+import React from "react";
 import { FC } from "react";
 import { AVATAR_SIZES } from "./Avatar.types";
 import { Avatar } from "./Avatar";
